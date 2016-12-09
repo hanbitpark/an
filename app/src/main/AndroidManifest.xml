@@ -9,6 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Day07_inflater">
+        </activity>
+        <activity android:name=".Day08_intent" />
+        <activity android:name=".Day08_intent_sub" />
+
+        <activity android:name=".Day08_lifecycle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

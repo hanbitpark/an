@@ -15,10 +15,11 @@ public class Day07_inflater extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_day07_inflater);
+
     }
 
-    public void onButton1Cliecked(View v){
-         LinearLayout container = (LinearLayout)findViewById(R.id.container);
+    public void onButton1Clicked(View v){
+        LinearLayout container = (LinearLayout)findViewById(R.id.container);
         LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         inflater.inflate(R.layout.activity_day07_inflater_sub, container, true);
 
