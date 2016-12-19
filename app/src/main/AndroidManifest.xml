@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Day07_inflater"></activity>
+        <activity android:name=".Day07_inflater" />
         <activity android:name=".Day09_service" />
         /////////////////////////////////////////////////
         <service android:name=".Day09_MySMSService" />
@@ -35,17 +35,18 @@
         </receiver>
         ///////////////////////////////////////////////////////
         <activity android:name=".Day09_MyDialog" />
-        <activity android:name=".Day10_Fragment">
+        <activity android:name=".Day10_Fragment"></activity>
+        <activity
+            android:name=".Day11_MyEvent_Listener"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Day11_event">
         </activity>
+        <activity android:name=".Day12_WebView">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".Day11_MyEvent_Listener"
-            android:label="Day11_event"
-            android:configChanges="orientation|screenSize|keyboardHidden">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
     </application>
 
