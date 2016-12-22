@@ -42,18 +42,22 @@
             android:label="Day11_event" />
         <activity android:name=".Day12_WebView" />
         <activity android:name=".Day13_PageSliding" />
-        <activity android:name=".Day13_ViewPager"></activity>
+        <activity android:name=".Day13_ViewPager" />
         <activity android:name=".Day14_ProgressBar">
+        </activity>
+        <activity
+            android:name=".Day14_Tabbed"
+            android:label="@string/title_activity_day14__tabbed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Day15_Select">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity
-            android:name=".Day14_Tabbed"
-            android:label="@string/title_activity_day14__tabbed"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
