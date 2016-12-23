@@ -49,14 +49,13 @@
             android:name=".Day14_Tabbed"
             android:label="@string/title_activity_day14__tabbed"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Day15_Select">
 
+        <activity android:name=".Day16_ListView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
