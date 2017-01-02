@@ -50,15 +50,17 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Day16_ListView" />
         <activity android:name=".Day17_Spinner" />
-        <activity android:name=".Day17_MyList"></activity>
-        <activity android:name=".Day17_Grid">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".Day17_MyList" />
+        <activity android:name=".Day17_Grid"></activity>
+        <activity android:name=".Day18_Wiget">
         </activity>
-        <activity android:name=".Day18_Wiget"></activity>
+        <activity android:name=".Day19_View">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
     </application>
 
 </manifest>
