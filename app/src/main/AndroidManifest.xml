@@ -53,10 +53,11 @@
         <activity android:name=".Day17_MyList" />
         <activity android:name=".Day17_Grid" />
         <activity android:name=".Day18_Wiget" />
-        <activity android:name=".Day19_View"></activity>
-        <activity android:name=".Day20_View">
-        </activity>
+        <activity android:name=".Day19_View" />
+        <activity android:name=".Day20_View"></activity>
         <activity android:name=".Day21_MyPaintBoard">
+        </activity>
+        <activity android:name=".Day22_SurfaceView">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
